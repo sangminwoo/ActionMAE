@@ -1,19 +1,18 @@
 # ActionMAE
 Pytorch code for our AAAI 2023 paper ["Towards Good Practices for Missing Modality Robust Action Recognition"](https://arxiv.org/abs/2211.13916).
 
+### Action Recognition with Missing Modality
 <div align="center">
   <img width="50%" alt="Missing Modality Action Recognition" src="figure/missing_modality.png">
 </div>
 <div align="center">
-  Action Recognition with Missing Modality.
+	Standard multi-modal action recognition assumes that the modalities used in the training stage are complete at inference time: (a) → (b). We address the action recognition problem in situations where such assumption is not established,
+	i.e., when modalities are incomplete at inference time: (a) →
+	(c). Our goal is to maintain performance in the absence of
+	any input modality.
 </div>
 
-<div align="center">
-  <img width="50%" alt="ActionMAE Overview" src="figure/actionmae.png">
-</div>
-<div align="center">
-  An overview of ActionMAE.
-</div>
+---
 
 ## Get Started
 ```
