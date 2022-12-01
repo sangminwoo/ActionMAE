@@ -16,8 +16,8 @@ Pytorch code for our AAAI 2023 paper ["Towards Good Practices for Missing Modali
 
 ## Get Started
 ```
-$ git clone https://github.com/sangminwoo/RecycleNet.git
-$ cd RecycleNet
+$ git clone https://github.com/sangminwoo/ActionMAE.git
+$ cd ActionMAE
 ```
 
 ## Dependencies 
